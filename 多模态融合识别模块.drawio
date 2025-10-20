@@ -1,9 +1,53 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.7">
   <diagram name="第 1 页" id="rR8ciyM2b9Ty-T1J7zCk">
-    <mxGraphModel>
+    <mxGraphModel dx="1426" dy="743" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="PNz7-mmoya4GIj58uQCr-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="PNz7-mmoya4GIj58uQCr-2" target="PNz7-mmoya4GIj58uQCr-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PNz7-mmoya4GIj58uQCr-25" value="用户身份数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PNz7-mmoya4GIj58uQCr-23">
+          <mxGeometry x="0.1429" y="5" relative="1" as="geometry">
+            <mxPoint x="-9" y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PNz7-mmoya4GIj58uQCr-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="143" y="328" width="457" height="357" as="geometry" />
+        </mxCell>
+        <mxCell id="PNz7-mmoya4GIj58uQCr-8" value="多模态融合识别模块" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="311.5" y="348" width="123.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PNz7-mmoya4GIj58uQCr-9" value="轻量端侧计算模型" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="318.75" y="573" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PNz7-mmoya4GIj58uQCr-14" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="PNz7-mmoya4GIj58uQCr-11" target="PNz7-mmoya4GIj58uQCr-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PNz7-mmoya4GIj58uQCr-11" value="行为特征数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170.75" y="406" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PNz7-mmoya4GIj58uQCr-15" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="PNz7-mmoya4GIj58uQCr-12" target="PNz7-mmoya4GIj58uQCr-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PNz7-mmoya4GIj58uQCr-12" value="时间特征数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="318.75" y="403" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PNz7-mmoya4GIj58uQCr-24" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PNz7-mmoya4GIj58uQCr-13" target="PNz7-mmoya4GIj58uQCr-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PNz7-mmoya4GIj58uQCr-13" value="场景特征数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="466.75" y="406" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PNz7-mmoya4GIj58uQCr-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PNz7-mmoya4GIj58uQCr-20" target="PNz7-mmoya4GIj58uQCr-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PNz7-mmoya4GIj58uQCr-20" value="生理特征向量数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="311.5" y="176" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PNz7-mmoya4GIj58uQCr-22" value="用户画像建模模块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="311.5" y="775" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
