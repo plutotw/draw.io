@@ -1,9 +1,88 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.7">
   <diagram name="第 1 页" id="jz4rnGy-1L0_zgC-4YRw">
-    <mxGraphModel>
+    <mxGraphModel dx="1426" dy="743" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Ezij4zsDTLMvI3d3QoPp-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ezij4zsDTLMvI3d3QoPp-1" target="Ezij4zsDTLMvI3d3QoPp-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ezij4zsDTLMvI3d3QoPp-1" value="用户画像数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="323" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ezij4zsDTLMvI3d3QoPp-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ezij4zsDTLMvI3d3QoPp-2" target="Ezij4zsDTLMvI3d3QoPp-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ezij4zsDTLMvI3d3QoPp-27" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;font style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;推荐&lt;/font&gt;&lt;font style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Top-3应用&lt;/font&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ezij4zsDTLMvI3d3QoPp-11">
+          <mxGeometry x="0.0534" y="1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ezij4zsDTLMvI3d3QoPp-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="64" y="264" width="639" height="304" as="geometry" />
+        </mxCell>
+        <mxCell id="Ezij4zsDTLMvI3d3QoPp-3" value="应用预测推荐模块" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="323" y="279" width="121" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ezij4zsDTLMvI3d3QoPp-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ezij4zsDTLMvI3d3QoPp-5" target="Ezij4zsDTLMvI3d3QoPp-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ezij4zsDTLMvI3d3QoPp-5" value="周期层" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="237" y="354" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ezij4zsDTLMvI3d3QoPp-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ezij4zsDTLMvI3d3QoPp-6" target="Ezij4zsDTLMvI3d3QoPp-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ezij4zsDTLMvI3d3QoPp-6" value="上下文层" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="405" y="354" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ezij4zsDTLMvI3d3QoPp-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ezij4zsDTLMvI3d3QoPp-10" target="Ezij4zsDTLMvI3d3QoPp-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ezij4zsDTLMvI3d3QoPp-32" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ezij4zsDTLMvI3d3QoPp-31">
+          <mxGeometry x="-0.3056" y="1" relative="1" as="geometry">
+            <mxPoint y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ezij4zsDTLMvI3d3QoPp-10" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;满足主动推荐触发条件&lt;/font&gt;&lt;/p&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="302.5" y="633" width="161" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ezij4zsDTLMvI3d3QoPp-14" value="显示推荐应用" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="323" y="785" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ezij4zsDTLMvI3d3QoPp-19" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1" source="Ezij4zsDTLMvI3d3QoPp-15" target="Ezij4zsDTLMvI3d3QoPp-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ezij4zsDTLMvI3d3QoPp-15" value="计算长期权重" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="112" y="281" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ezij4zsDTLMvI3d3QoPp-20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;elbow=vertical;" edge="1" parent="1" source="Ezij4zsDTLMvI3d3QoPp-16" target="Ezij4zsDTLMvI3d3QoPp-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ezij4zsDTLMvI3d3QoPp-16" value="计算短期权重" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="85" y="354" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ezij4zsDTLMvI3d3QoPp-21" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1" source="Ezij4zsDTLMvI3d3QoPp-17" target="Ezij4zsDTLMvI3d3QoPp-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ezij4zsDTLMvI3d3QoPp-17" value="及假日修正" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="94" y="453" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ezij4zsDTLMvI3d3QoPp-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ezij4zsDTLMvI3d3QoPp-22" target="Ezij4zsDTLMvI3d3QoPp-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ezij4zsDTLMvI3d3QoPp-22" value="当前电视状态修正" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="573" y="354" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ezij4zsDTLMvI3d3QoPp-24" value="综合计算" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="323" y="455" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ezij4zsDTLMvI3d3QoPp-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ezij4zsDTLMvI3d3QoPp-33" target="Ezij4zsDTLMvI3d3QoPp-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ezij4zsDTLMvI3d3QoPp-33" value="计算应用权重" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="559" y="445" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
