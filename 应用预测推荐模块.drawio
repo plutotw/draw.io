@@ -59,7 +59,7 @@
         <mxCell id="Ezij4zsDTLMvI3d3QoPp-20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;elbow=vertical;" parent="1" source="Ezij4zsDTLMvI3d3QoPp-16" target="Ezij4zsDTLMvI3d3QoPp-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ezij4zsDTLMvI3d3QoPp-16" value="计算短期权重" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+        <mxCell id="Ezij4zsDTLMvI3d3QoPp-16" value="相似时段补偿" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
           <mxGeometry x="85" y="354" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ezij4zsDTLMvI3d3QoPp-21" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="1" source="Ezij4zsDTLMvI3d3QoPp-17" target="Ezij4zsDTLMvI3d3QoPp-5" edge="1">
@@ -72,16 +72,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ezij4zsDTLMvI3d3QoPp-22" value="当前电视状态修正" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
-          <mxGeometry x="573" y="354" width="120" height="60" as="geometry" />
+          <mxGeometry x="569" y="354" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ezij4zsDTLMvI3d3QoPp-24" value="综合计算" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="323" y="455" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ezij4zsDTLMvI3d3QoPp-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" source="Ezij4zsDTLMvI3d3QoPp-33" target="Ezij4zsDTLMvI3d3QoPp-6" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Ezij4zsDTLMvI3d3QoPp-33" value="计算短期权重" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="560" y="279" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ezij4zsDTLMvI3d3QoPp-33" value="计算应用权重" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
-          <mxGeometry x="559" y="445" width="120" height="60" as="geometry" />
+        <mxCell id="2LS7_-NPKDiV5xyHxnpK-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.567;entryY=-0.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Ezij4zsDTLMvI3d3QoPp-33" target="Ezij4zsDTLMvI3d3QoPp-6">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
